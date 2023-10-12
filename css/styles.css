@@ -506,15 +506,23 @@ margin-bottom: 16px;
     background-color: transparent;
     outline: transparent;
     padding: 8px 16px;
+    font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+color: #ffffff;
 }
 
 .footer-form-input::placeholder{
-    color: var(--WHITE, #FFF);
+    color: #ffffff;
 font-size: 12px;
 line-height: 2.0;
 letter-spacing: 0.04em;
 }
 
+.modal-field{
+    margin-bottom: 8px;
+}
 .footer-form-btn{
     min-width: 165px;
     height: 40px;
@@ -723,7 +731,6 @@ cursor: pointer;
 }
 
 .check-text{
-    display: inline-flex;
     color: var(--LIGHT-SLATE, #8E8F99);
     font-size: 12px;
     line-height: 1.17;
